@@ -1,0 +1,38 @@
+#profile{ 
+    margin-top:10%; 
+    text-align: center;
+    border:1px solid red;
+    padding:50px;
+}
+.profile-para{
+    text-align: left;
+    font-size:1.3rem;
+    font-family:cursive;
+    font-weight:bold;
+    
+}
+.profile-name{
+    color:#5c2a9d;
+    margin:30px;
+    font-family:cursive;
+    font-weight:bold;
+    
+}
+label{
+    margin-left:10%;
+
+}
+.update-a{
+
+    text-align:right;
+    font-size:1.3rem;
+    font-family:cursive;
+    font-weight:bold;
+}
+.update-input{
+   
+    width:250px;
+}
+.update-gender{
+    margin-left:13%;
+}

@@ -1,0 +1,43 @@
+<%- include("partial/header") -%>
+    
+ <div class="container" >
+
+
+<div class="signup-style">
+    <div class="row">
+        
+        <div class="col-lg-3"></div>
+        
+        <div class="col-lg-6 form-style">
+        <h1 class="sign-up-h1">Sign Up</h1>
+        <p>Please fill in this form to create an account!</p>
+        <form class="form-signin" action="/signup" method="post">
+        
+  
+          <input type="text"  id="input" name="name1"class="form-control" placeholder="Full Name">
+        
+          <input type="email" id="input" name="email" class="form-control" placeholder="Email address">
+        
+          <input type="password" id="input" name="password"class="form-control" placeholder="Password">
+          
+          <input type="password" id="input" class="form-control" placeholder="Confirm Password">
+
+  
+           <button type="submit" id="input" class="btn btn-lg btn-primary btn-block" >Sign Up</button>
+
+      </form>
+     
+      </div>
+     
+      <div class="col-lg-3"></div>
+      
+
+    </div>
+    </div>
+
+
+ </div>
+
+
+
+<%- include("partial/footer") -%>
